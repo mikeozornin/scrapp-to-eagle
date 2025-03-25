@@ -19,6 +19,8 @@ def format_tags(screenshot_tags, all_tags):
             formatted_tags.append(f"{tag_name} (public)")
         else:
             formatted_tags.append(tag_name)
+    # Добавляем тег о переносе из Scrapp
+    formatted_tags.append("moved from scrapp")
     return formatted_tags
 
 # Перенос изображений
